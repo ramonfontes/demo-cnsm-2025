@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RPL DoDAG Visualization</title>
+  <script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+  body {
+    text-align: center;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  #mynetwork {
+    width: 50%;
+    height: 450px;
+    border: 1px solid lightgray;
+  }
+
+  .table-container {
+    width: 30%;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    padding: 8px;
+    border: 1px solid lightgray;
+    text-align: left;
+  }
+
+</style>
+<h1>RPL DoDAG Visualization</h1>
+ 
+<div class="container">
+  <div id="mynetwork"></div>
+  <div class="table-container">
+    <div>
+      <canvas id="packetChart" width="200" height="90"></canvas>
+    </div>
+    <div>
+       <canvas id="packetTypeChart" width="200" height="90"></canvas>
+    </div>
+  </div>
+</div>
+
+    <div>
+    <canvas id="planeCanvas"></canvas>
+  </div>
+
+
+
+<script src="code.js"></script>
+</body>
+</html>
