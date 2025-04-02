@@ -1,4 +1,4 @@
-## P4EdgeNet Use Cases
+## Demo: P4-Based Emulation of LoWPAN and RPL Networks for Aviation Telemetry and Communication
 
 ### Requirements
 
@@ -12,5 +12,5 @@
  
 `$ sudo python topology.py`
 
-* After running the script, two xterm windows will open: one for the Flask server and another for Grafana on host h1.
+* After running the script, one xterm windows will open for the Flask server.
 * Then open ui/index.html
