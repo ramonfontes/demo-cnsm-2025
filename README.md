@@ -14,3 +14,7 @@
 
 * After running the script, one xterm windows will open for the Flask server.
 * Then open ui/index.html
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ramonfontes/demo-cnsm-2025/refs/heads/main/video.gif?raw=true" height="480">
+</p>
