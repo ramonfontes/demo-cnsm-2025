@@ -15,6 +15,10 @@
 * After running the script, one xterm windows will open for the Flask server.
 * Then open ui/index.html
 
+## Video
+ 
+Video below illustrates sensors installed in an aircraft, as visualized using the RPL DoDAG Visualization tool, which is a GUI developed to map the network topology. For simplicity purpose, we emulated 42 LoWPAN sensors on a Ubuntu system running Kernel version 6.5.0-1025. In this sense, preliminary results demonstrate that our emulation platform effectively replicates IEEE 802.15.4 networks, integrating the RPL protocol and BMv2 switches.
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/ramonfontes/demo-cnsm-2025/refs/heads/main/video.gif?raw=true" height="480">
 </p>
